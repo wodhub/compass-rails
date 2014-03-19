@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in compass-rails.gemspec
 gemspec
 
+gem 'compass', :git => 'https://github.com/chriseppstein/compass.git', :branch => 'master'
+
 group :assets do
   gem 'compass', :git => 'https://github.com/chriseppstein/compass.git', :branch => 'master'
   gem "compass-rails", :path=>"."
