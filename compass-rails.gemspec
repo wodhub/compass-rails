@@ -15,7 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = CompassRails::VERSION
   gem.license       = "MIT"
-
+  
+  gem.add_dependency 'compass', '0.13.alpha.10'
   gem.add_dependency 'sprockets', '<= 2.11.0'
 
 end
